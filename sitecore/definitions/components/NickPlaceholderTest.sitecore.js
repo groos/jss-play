@@ -10,7 +10,6 @@ export default function(manifest) {
   manifest.addComponent({
     name: 'NickPlaceholderTest',
     icon: SitecoreIcon.DocumentTag,
-    placeholders: ['tabs'],
     fields: [
       { name: 'heading', type: CommonFieldTypes.SingleLineText },
       { name: 'richText', type: CommonFieldTypes.RichText }

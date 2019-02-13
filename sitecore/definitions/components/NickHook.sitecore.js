@@ -11,7 +11,7 @@ export default function(manifest) {
     name: 'NickHook',
     displayName: 'Nick Hook',
     icon: SitecoreIcon.DocumentTag,
-    placeholders: ['jss-nick-placeholder'],
+    placeholders: ['jss-nick-placeholder', 'jss-nick-placeholder-component'],
     fields: [
       { name: 'heading', type: CommonFieldTypes.SingleLineText },
       { name: 'richText', type: CommonFieldTypes.RichText }

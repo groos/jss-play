@@ -1,10 +1,11 @@
 import React from 'react';
 
-import { withPlaceholder } from '@sitecore-jss/sitecore-jss-react';
+import { Text, withPlaceholder } from '@sitecore-jss/sitecore-jss-react';
 
-const NickPlaceholderTest = ({tabs}) => {
+const NickPlaceholderTest = ({tabs, fields}) => {
   return (
     <div>
+      <Text tag="h3" field={fields.heading}/>
       {tabs}
     </div>
   );

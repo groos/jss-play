@@ -14,6 +14,7 @@ const NickHook = (props) => {
       <button onClick={() => setCount(0)}>Clear count</button>
 
       <Placeholder name="jss-nick-placeholder" rendering={props.rendering} />
+      <Placeholder name="jss-nick-placeholder-component" rendering={props.rendering} />
     </div>
   );
 }

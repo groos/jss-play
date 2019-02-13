@@ -7,7 +7,14 @@ placeholders:
       heading: Nick's JSS page
       richText: <p>hey bro!<p>
     placeholders:
+      jss-nick-placeholder-component:
+      - componentName: NickTab
+        fields:
+          heading: Nick's other component
       jss-nick-placeholder:
+      - componentName: NickTab
+        fields:
+          heading: Nick's other component
       - componentName: NickPlaceholderTest
         fields:
           heading: Nick's Tabs
