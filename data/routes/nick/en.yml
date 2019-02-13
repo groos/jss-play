@@ -19,3 +19,6 @@ placeholders:
           - componentName: NickTab
             fields:
               heading: Nick's Tab 2
+          - componentName: NickTab
+            fields:
+              heading: Nick's Tab 3
