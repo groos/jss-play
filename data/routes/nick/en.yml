@@ -1,0 +1,21 @@
+fields:
+  pageTitle: Nick | Sitecore JSS
+placeholders:
+  jss-main:
+  - componentName: NickHook
+    fields:
+      heading: Nick's JSS page
+      richText: <p>hey bro!<p>
+    placeholders:
+      jss-nick-placeholder:
+      - componentName: NickPlaceholderTest
+        fields:
+          heading: Nick's Tabs
+        placeholders:
+          tabs:
+          - componentName: NickTab
+            fields:
+              heading: Nick's Tab 1
+          - componentName: NickTab
+            fields:
+              heading: Nick's Tab 2
