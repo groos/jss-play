@@ -20,3 +20,5 @@
 
 scjssconfig.json
 *.deploysecret.config
+
+install/*
